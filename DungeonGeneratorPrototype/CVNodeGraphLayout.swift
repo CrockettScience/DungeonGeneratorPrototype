@@ -2,9 +2,7 @@
 //  CVNodeGraphLayout.swift
 //  DungeonGeneratorPrototype
 //
-//  Created by Guest User on 5/12/17.
-//  Copyright © 2017 Cuesta College. All rights reserved.
-//
+//  Created by Jonathan Crockett on 5/12/17.
 
 import UIKit
 

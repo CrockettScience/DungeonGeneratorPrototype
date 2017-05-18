@@ -2,9 +2,8 @@
 //  Dungeon.swift
 //  Block Quest
 //
-//  Created by Jonathan Crockett on 3/8/17.
-//  Copyright © 2017 Jonathan Crockett. All rights reserved.
 //
+//  Created by Jonathan Crockett on 5/12/17.
 
 import Foundation
 

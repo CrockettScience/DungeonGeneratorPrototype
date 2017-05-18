@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC0765D41EC519E5001A73A0 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0765D31EC519E5001A73A0 /* Planet.swift */; };
+		AC0765D71EC52EB1001A73A0 /* DungeonViewerRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0765D61EC52EB1001A73A0 /* DungeonViewerRoot.swift */; };
+		AC0765DB1EC53601001A73A0 /* CVStarSystemOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0765DA1EC53601001A73A0 /* CVStarSystemOverview.swift */; };
+		AC0765DD1EC53698001A73A0 /* CVSystemOverviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0765DC1EC53698001A73A0 /* CVSystemOverviewCell.swift */; };
 		AC1E92571EAFDB5A00922E5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E92561EAFDB5A00922E5F /* AppDelegate.swift */; };
 		AC1E92591EAFDB5A00922E5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E92581EAFDB5A00922E5F /* ViewController.swift */; };
 		AC1E925C1EAFDB5A00922E5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1E925A1EAFDB5A00922E5F /* Main.storyboard */; };
@@ -14,6 +18,25 @@
 		AC1E92611EAFDB5A00922E5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1E925F1EAFDB5A00922E5F /* LaunchScreen.storyboard */; };
 		AC1E926C1EAFDB5A00922E5F /* DungeonGeneratorPrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E926B1EAFDB5A00922E5F /* DungeonGeneratorPrototypeTests.swift */; };
 		AC1E92771EAFDB5B00922E5F /* DungeonGeneratorPrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E92761EAFDB5B00922E5F /* DungeonGeneratorPrototypeUITests.swift */; };
+		AC1E92871EAFDBEA00922E5F /* DCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E92851EAFDBEA00922E5F /* DCellNode.swift */; };
+		AC1E92881EAFDBEA00922E5F /* DungeonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E92861EAFDBEA00922E5F /* DungeonEnum.swift */; };
+		AC1E928A1EAFDBF500922E5F /* DCellMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E92891EAFDBF500922E5F /* DCellMap.swift */; };
+		AC3E2FC31EC3F2EE001BD52C /* DungeonElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3E2FC21EC3F2EE001BD52C /* DungeonElement.swift */; };
+		AC5825801EC2547F0035EEE4 /* CVGalaxyOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC58257F1EC2547F0035EEE4 /* CVGalaxyOverview.swift */; };
+		AC5825821EC258540035EEE4 /* CVGalaxyOverviewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5825811EC258540035EEE4 /* CVGalaxyOverviewLayout.swift */; };
+		AC5825841EC25B9C0035EEE4 /* CVGalaxyOverviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5825831EC25B9C0035EEE4 /* CVGalaxyOverviewCell.swift */; };
+		AC8734D11EC14ADF000211EE /* Galaxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8734D01EC14ADF000211EE /* Galaxy.swift */; };
+		AC8734D31EC14AEF000211EE /* System.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8734D21EC14AEF000211EE /* System.swift */; };
+		AC9960431EC4CD5A00654ED8 /* DungeonElementInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9960421EC4CD5A00654ED8 /* DungeonElementInformationViewController.swift */; };
+		AC9960451EC4CD9200654ED8 /* DungeonElementInformationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9960441EC4CD9200654ED8 /* DungeonElementInformationTableViewCell.swift */; };
+		AC9BE19C1EC6156D005089EF /* CVPlanetSystemOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9BE19B1EC6156D005089EF /* CVPlanetSystemOverview.swift */; };
+		AC9E1A691EC3D8050066B64F /* DungeonViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9E1A681EC3D8050066B64F /* DungeonViewer.swift */; };
+		AC9E1A6D1EC3E4440066B64F /* DungeonNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9E1A6C1EC3E4440066B64F /* DungeonNavigationController.swift */; };
+		ACE7CB981EC6291900F0EC7D /* CVNodeGraphLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE7CB971EC6291900F0EC7D /* CVNodeGraphLayout.swift */; };
+		ACE7CB9A1EC636F200F0EC7D /* CVNodeGraphCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE7CB991EC636F200F0EC7D /* CVNodeGraphCell.swift */; };
+		ACE7CB9C1EC6371A00F0EC7D /* CVNodeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE7CB9B1EC6371A00F0EC7D /* CVNodeGraph.swift */; };
+		ACE7DB291EC4F00D00496882 /* DungeonElementData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE7DB281EC4F00D00496882 /* DungeonElementData.swift */; };
+		ACFAC9381EB276DE0009DFB5 /* HashGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAC9371EB276DE0009DFB5 /* HashGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +57,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC0765D31EC519E5001A73A0 /* Planet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		AC0765D61EC52EB1001A73A0 /* DungeonViewerRoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DungeonViewerRoot.swift; sourceTree = "<group>"; };
+		AC0765DA1EC53601001A73A0 /* CVStarSystemOverview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVStarSystemOverview.swift; sourceTree = "<group>"; };
+		AC0765DC1EC53698001A73A0 /* CVSystemOverviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVSystemOverviewCell.swift; sourceTree = "<group>"; };
 		AC1E92531EAFDB5A00922E5F /* DungeonGeneratorPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DungeonGeneratorPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1E92561EAFDB5A00922E5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC1E92581EAFDB5A00922E5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +74,25 @@
 		AC1E92721EAFDB5B00922E5F /* DungeonGeneratorPrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DungeonGeneratorPrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1E92761EAFDB5B00922E5F /* DungeonGeneratorPrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonGeneratorPrototypeUITests.swift; sourceTree = "<group>"; };
 		AC1E92781EAFDB5B00922E5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC1E92851EAFDBEA00922E5F /* DCellNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCellNode.swift; sourceTree = "<group>"; };
+		AC1E92861EAFDBEA00922E5F /* DungeonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DungeonEnum.swift; sourceTree = "<group>"; };
+		AC1E92891EAFDBF500922E5F /* DCellMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCellMap.swift; sourceTree = "<group>"; };
+		AC3E2FC21EC3F2EE001BD52C /* DungeonElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DungeonElement.swift; sourceTree = "<group>"; };
+		AC58257F1EC2547F0035EEE4 /* CVGalaxyOverview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVGalaxyOverview.swift; sourceTree = "<group>"; };
+		AC5825811EC258540035EEE4 /* CVGalaxyOverviewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVGalaxyOverviewLayout.swift; sourceTree = "<group>"; };
+		AC5825831EC25B9C0035EEE4 /* CVGalaxyOverviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVGalaxyOverviewCell.swift; sourceTree = "<group>"; };
+		AC8734D01EC14ADF000211EE /* Galaxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Galaxy.swift; sourceTree = "<group>"; };
+		AC8734D21EC14AEF000211EE /* System.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = System.swift; sourceTree = "<group>"; };
+		AC9960421EC4CD5A00654ED8 /* DungeonElementInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DungeonElementInformationViewController.swift; sourceTree = "<group>"; };
+		AC9960441EC4CD9200654ED8 /* DungeonElementInformationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DungeonElementInformationTableViewCell.swift; sourceTree = "<group>"; };
+		AC9BE19B1EC6156D005089EF /* CVPlanetSystemOverview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVPlanetSystemOverview.swift; sourceTree = "<group>"; };
+		AC9E1A681EC3D8050066B64F /* DungeonViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DungeonViewer.swift; sourceTree = "<group>"; };
+		AC9E1A6C1EC3E4440066B64F /* DungeonNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DungeonNavigationController.swift; sourceTree = "<group>"; };
+		ACE7CB971EC6291900F0EC7D /* CVNodeGraphLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVNodeGraphLayout.swift; sourceTree = "<group>"; };
+		ACE7CB991EC636F200F0EC7D /* CVNodeGraphCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVNodeGraphCell.swift; sourceTree = "<group>"; };
+		ACE7CB9B1EC6371A00F0EC7D /* CVNodeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVNodeGraph.swift; sourceTree = "<group>"; };
+		ACE7DB281EC4F00D00496882 /* DungeonElementData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DungeonElementData.swift; sourceTree = "<group>"; };
+		ACFAC9371EB276DE0009DFB5 /* HashGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HashGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +120,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC0765D51EC52DCD001A73A0 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				AC0765DA1EC53601001A73A0 /* CVStarSystemOverview.swift */,
+				AC0765DC1EC53698001A73A0 /* CVSystemOverviewCell.swift */,
+				AC9BE19B1EC6156D005089EF /* CVPlanetSystemOverview.swift */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
 		AC1E924A1EAFDB5900922E5F = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +153,8 @@
 		AC1E92551EAFDB5A00922E5F /* DungeonGeneratorPrototype */ = {
 			isa = PBXGroup;
 			children = (
+				AC9E1A671EC3D7C50066B64F /* Dungeon Viewer */,
+				AC1E92841EAFDB7700922E5F /* Generator */,
 				AC1E92561EAFDB5A00922E5F /* AppDelegate.swift */,
 				AC1E92581EAFDB5A00922E5F /* ViewController.swift */,
 				AC1E925A1EAFDB5A00922E5F /* Main.storyboard */,
@@ -123,6 +181,65 @@
 				AC1E92781EAFDB5B00922E5F /* Info.plist */,
 			);
 			path = DungeonGeneratorPrototypeUITests;
+			sourceTree = "<group>";
+		};
+		AC1E92841EAFDB7700922E5F /* Generator */ = {
+			isa = PBXGroup;
+			children = (
+				AC1E92891EAFDBF500922E5F /* DCellMap.swift */,
+				AC1E92851EAFDBEA00922E5F /* DCellNode.swift */,
+				AC1E92861EAFDBEA00922E5F /* DungeonEnum.swift */,
+				ACFAC9371EB276DE0009DFB5 /* HashGrid.swift */,
+				AC8734D01EC14ADF000211EE /* Galaxy.swift */,
+				AC8734D21EC14AEF000211EE /* System.swift */,
+				AC0765D31EC519E5001A73A0 /* Planet.swift */,
+			);
+			name = Generator;
+			sourceTree = "<group>";
+		};
+		AC3E2FC11EC3F0CC001BD52C /* Galaxy */ = {
+			isa = PBXGroup;
+			children = (
+				AC58257F1EC2547F0035EEE4 /* CVGalaxyOverview.swift */,
+				AC5825811EC258540035EEE4 /* CVGalaxyOverviewLayout.swift */,
+				AC5825831EC25B9C0035EEE4 /* CVGalaxyOverviewCell.swift */,
+			);
+			name = Galaxy;
+			sourceTree = "<group>";
+		};
+		AC9960411EC4CD1400654ED8 /* Dungeon Element */ = {
+			isa = PBXGroup;
+			children = (
+				AC3E2FC21EC3F2EE001BD52C /* DungeonElement.swift */,
+				AC9960421EC4CD5A00654ED8 /* DungeonElementInformationViewController.swift */,
+				AC9960441EC4CD9200654ED8 /* DungeonElementInformationTableViewCell.swift */,
+				ACE7DB281EC4F00D00496882 /* DungeonElementData.swift */,
+			);
+			name = "Dungeon Element";
+			sourceTree = "<group>";
+		};
+		AC9E1A671EC3D7C50066B64F /* Dungeon Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				ACE7CB961EC623F800F0EC7D /* Node Graph */,
+				AC0765D51EC52DCD001A73A0 /* System */,
+				AC9960411EC4CD1400654ED8 /* Dungeon Element */,
+				AC3E2FC11EC3F0CC001BD52C /* Galaxy */,
+				AC9E1A6C1EC3E4440066B64F /* DungeonNavigationController.swift */,
+				AC9E1A681EC3D8050066B64F /* DungeonViewer.swift */,
+				AC0765D61EC52EB1001A73A0 /* DungeonViewerRoot.swift */,
+			);
+			name = "Dungeon Viewer";
+			sourceTree = "<group>";
+		};
+		ACE7CB961EC623F800F0EC7D /* Node Graph */ = {
+			isa = PBXGroup;
+			children = (
+				ACE7CB971EC6291900F0EC7D /* CVNodeGraphLayout.swift */,
+				ACE7CB991EC636F200F0EC7D /* CVNodeGraphCell.swift */,
+				ACE7CB9B1EC6371A00F0EC7D /* CVNodeGraph.swift */,
+			);
+			name = "Node Graph";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +376,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC9E1A691EC3D8050066B64F /* DungeonViewer.swift in Sources */,
+				ACE7CB9A1EC636F200F0EC7D /* CVNodeGraphCell.swift in Sources */,
 				AC1E92591EAFDB5A00922E5F /* ViewController.swift in Sources */,
+				AC0765DD1EC53698001A73A0 /* CVSystemOverviewCell.swift in Sources */,
+				AC0765DB1EC53601001A73A0 /* CVStarSystemOverview.swift in Sources */,
+				AC5825821EC258540035EEE4 /* CVGalaxyOverviewLayout.swift in Sources */,
+				AC0765D41EC519E5001A73A0 /* Planet.swift in Sources */,
+				AC0765D71EC52EB1001A73A0 /* DungeonViewerRoot.swift in Sources */,
+				AC5825801EC2547F0035EEE4 /* CVGalaxyOverview.swift in Sources */,
+				ACE7CB9C1EC6371A00F0EC7D /* CVNodeGraph.swift in Sources */,
+				AC8734D11EC14ADF000211EE /* Galaxy.swift in Sources */,
+				AC9BE19C1EC6156D005089EF /* CVPlanetSystemOverview.swift in Sources */,
+				ACFAC9381EB276DE0009DFB5 /* HashGrid.swift in Sources */,
+				AC1E92881EAFDBEA00922E5F /* DungeonEnum.swift in Sources */,
+				AC3E2FC31EC3F2EE001BD52C /* DungeonElement.swift in Sources */,
+				ACE7CB981EC6291900F0EC7D /* CVNodeGraphLayout.swift in Sources */,
+				AC5825841EC25B9C0035EEE4 /* CVGalaxyOverviewCell.swift in Sources */,
+				AC8734D31EC14AEF000211EE /* System.swift in Sources */,
+				AC9960451EC4CD9200654ED8 /* DungeonElementInformationTableViewCell.swift in Sources */,
+				ACE7DB291EC4F00D00496882 /* DungeonElementData.swift in Sources */,
+				AC9960431EC4CD5A00654ED8 /* DungeonElementInformationViewController.swift in Sources */,
 				AC1E92571EAFDB5A00922E5F /* AppDelegate.swift in Sources */,
+				AC1E92871EAFDBEA00922E5F /* DCellNode.swift in Sources */,
+				AC9E1A6D1EC3E4440066B64F /* DungeonNavigationController.swift in Sources */,
+				AC1E928A1EAFDBF500922E5F /* DCellMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +643,7 @@
 				AC1E927D1EAFDB5B00922E5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC1E927E1EAFDB5B00922E5F /* Build configuration list for PBXNativeTarget "DungeonGeneratorPrototypeTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +652,7 @@
 				AC1E92801EAFDB5B00922E5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC1E92811EAFDB5B00922E5F /* Build configuration list for PBXNativeTarget "DungeonGeneratorPrototypeUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +661,7 @@
 				AC1E92831EAFDB5B00922E5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
